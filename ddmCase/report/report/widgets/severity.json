@@ -1,0 +1,921 @@
+[ {
+  "uid" : "1961dd5de9b9f32d",
+  "name" : "删除单个规则测试",
+  "time" : {
+    "start" : 1622032391070,
+    "stop" : 1622032394343,
+    "duration" : 3273
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aac1ce4940bd2490",
+  "name" : "拓展规则禁用测试",
+  "time" : {
+    "start" : 1622032486224,
+    "stop" : 1622032489754,
+    "duration" : 3530
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2dab322adf609e7c",
+  "name" : "批量启用规则测试",
+  "time" : {
+    "start" : 1622032346199,
+    "stop" : 1622032353472,
+    "duration" : 7273
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "46ca2a5f4c8d3dba",
+  "name" : "新增拓展规则_字符串-替换SQL测试",
+  "time" : {
+    "start" : 1622032439467,
+    "stop" : 1622032442547,
+    "duration" : 3080
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3e74a2fa970f6c58",
+  "name" : "SQL语法_select*/关键字大小写",
+  "time" : {
+    "start" : 1622032396429,
+    "stop" : 1622032399481,
+    "duration" : 3052
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5a088539c24d2623",
+  "name" : "删除白名单",
+  "time" : {
+    "start" : 1622032417702,
+    "stop" : 1622032421089,
+    "duration" : 3387
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a5122019963c0a8",
+  "name" : "SQL语法_HIGH_PRIORITY/STRAIGHT_JOIN等语法测试",
+  "time" : {
+    "start" : 1622032399779,
+    "stop" : 1622032399992,
+    "duration" : 213
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f7add55d8caba5e6",
+  "name" : "获取最大线程数测试",
+  "time" : {
+    "start" : 1622032337455,
+    "stop" : 1622032337698,
+    "duration" : 243
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a816d4cd53d7a39f",
+  "name" : "拓展规则批量删除测试",
+  "time" : {
+    "start" : 1622032479912,
+    "stop" : 1622032486222,
+    "duration" : 6310
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa6fbe3e92874735",
+  "name" : "新增拓展规则_时间段_替换表名测试",
+  "time" : {
+    "start" : 1622032444817,
+    "stop" : 1622032447928,
+    "duration" : 3111
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29fe8dff86b2d0dc",
+  "name" : "创建单个规则测试",
+  "time" : {
+    "start" : 1622032377659,
+    "stop" : 1622032381173,
+    "duration" : 3514
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4d2e20030228151a",
+  "name" : "SQL语法_行子查询测试",
+  "time" : {
+    "start" : 1622032401432,
+    "stop" : 1622032401468,
+    "duration" : 36
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "16a245d0b9a2be31",
+  "name" : "获取扫描任务列表测试",
+  "time" : {
+    "start" : 1622032337289,
+    "stop" : 1622032337452,
+    "duration" : 163
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2de5de2f332e3d61",
+  "name" : "白名单列表测试",
+  "time" : {
+    "start" : 1622032402247,
+    "stop" : 1622032402302,
+    "duration" : 55
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5f0abb4c3e2ef18c",
+  "name" : "SQL语法_count测试",
+  "time" : {
+    "start" : 1622032400434,
+    "stop" : 1622032400613,
+    "duration" : 179
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7eeec6b44aa11f94",
+  "name" : "任务配置获取所选库下所有表测试",
+  "time" : {
+    "start" : 1622032338462,
+    "stop" : 1622032338848,
+    "duration" : 386
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f4de205436376f19",
+  "name" : "创建单个规则获取列名接口测试",
+  "time" : {
+    "start" : 1622032377510,
+    "stop" : 1622032377587,
+    "duration" : 77
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "634b1d40b4f2d59a",
+  "name" : "扫描进度测试",
+  "time" : {
+    "start" : 1622032339080,
+    "stop" : 1622032341216,
+    "duration" : 2136
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7697b4b9e7c92a9f",
+  "name" : "修改白名单测试",
+  "time" : {
+    "start" : 1622032405401,
+    "stop" : 1622032408463,
+    "duration" : 3062
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "96aa62a5aac5e22d",
+  "name" : "启动扫描任务测试",
+  "time" : {
+    "start" : 1622032338961,
+    "stop" : 1622032339078,
+    "duration" : 117
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ff22b90035e094",
+  "name" : "启用拓展规则组测试",
+  "time" : {
+    "start" : 1622032421498,
+    "stop" : 1622032421632,
+    "duration" : 134
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1465ba3cbe80f603",
+  "name" : "SQL语法_any测试",
+  "time" : {
+    "start" : 1622032401292,
+    "stop" : 1622032401411,
+    "duration" : 119
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a38dc56565d031b",
+  "name" : "任务配置不勾选模板获取所有数据类型测试",
+  "time" : {
+    "start" : 1622032338316,
+    "stop" : 1622032338459,
+    "duration" : 143
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "defafd0d40a117d8",
+  "name" : "批量创建规则测试",
+  "time" : {
+    "start" : 1622032341841,
+    "stop" : 1622032346197,
+    "duration" : 4356
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b24f1360e8d29dbc",
+  "name" : "修改白名单测试-非白名单时间段",
+  "time" : {
+    "start" : 1622032414623,
+    "stop" : 1622032417699,
+    "duration" : 3076
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7442ac001d674b16",
+  "name" : "创建单个规则获取脱敏算法接口测试",
+  "time" : {
+    "start" : 1622032377590,
+    "stop" : 1622032377656,
+    "duration" : 66
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "14b9b856c7994e51",
+  "name" : "获取拓展规则组列表测试",
+  "time" : {
+    "start" : 1622032421442,
+    "stop" : 1622032421496,
+    "duration" : 54
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6209147a4dceb21a",
+  "name" : "任务配置获取配置信息测试",
+  "time" : {
+    "start" : 1622032338011,
+    "stop" : 1622032338163,
+    "duration" : 152
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ff7454472ac16cd",
+  "name" : "查看规则组列表测试",
+  "time" : {
+    "start" : 1622032341652,
+    "stop" : 1622032341708,
+    "duration" : 56
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "804de6c2cf48b0b0",
+  "name" : "新增拓展规则_表名_替换表名测试",
+  "time" : {
+    "start" : 1622032421634,
+    "stop" : 1622032424974,
+    "duration" : 3340
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef9aea957603dfd0",
+  "name" : "白名单是否生效测试",
+  "time" : {
+    "start" : 1622032402388,
+    "stop" : 1622032405399,
+    "duration" : 3011
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf32cf6202e70f56",
+  "name" : "拓展规则编辑测试",
+  "time" : {
+    "start" : 1622032493947,
+    "stop" : 1622032497100,
+    "duration" : 3153
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cee2e653cf9db79b",
+  "name" : "禁用拓展规则组测试",
+  "time" : {
+    "start" : 1622032456295,
+    "stop" : 1622032459472,
+    "duration" : 3177
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7b7586bc4a5090b0",
+  "name" : "SQL语法_groupBy测试",
+  "time" : {
+    "start" : 1622032400413,
+    "stop" : 1622032400432,
+    "duration" : 19
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c4ea5ce5e1151496",
+  "name" : "新增拓展规则_字符串_替换表名测试",
+  "time" : {
+    "start" : 1622032433273,
+    "stop" : 1622032436373,
+    "duration" : 3100
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f370f122db05c24a",
+  "name" : "启用单个规则测试",
+  "time" : {
+    "start" : 1622032384490,
+    "stop" : 1622032387753,
+    "duration" : 3263
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2d9ef00e2ab0fa0c",
+  "name" : "禁用单个规则测试",
+  "time" : {
+    "start" : 1622032381176,
+    "stop" : 1622032384488,
+    "duration" : 3312
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9cbce8c4bcb93faa",
+  "name" : "新增拓展规则_表名-搜索并替换字符串测试",
+  "time" : {
+    "start" : 1622032424977,
+    "stop" : 1622032428095,
+    "duration" : 3118
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "af8feb78fc87e13b",
+  "name" : "新增拓展规则_时间段-阻断测试",
+  "time" : {
+    "start" : 1622032454146,
+    "stop" : 1622032456293,
+    "duration" : 2147
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ea81912467d901ee",
+  "name" : "拓展规则启用测试",
+  "time" : {
+    "start" : 1622032489757,
+    "stop" : 1622032493945,
+    "duration" : 4188
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8dd35961215d8418",
+  "name" : "删除mysql数据源测试",
+  "time" : {
+    "start" : 1622032511192,
+    "stop" : 1622032519739,
+    "duration" : 8547
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "838be371f5eada08",
+  "name" : "SQL语法_like测试",
+  "time" : {
+    "start" : 1622032400374,
+    "stop" : 1622032400410,
+    "duration" : 36
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a026c6e54e40a68",
+  "name" : "SQL语法_withRollup测试",
+  "time" : {
+    "start" : 1622032400615,
+    "stop" : 1622032400631,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ac6dce74105e1055",
+  "name" : "修改数据源端口号测试",
+  "time" : {
+    "start" : 1622032500752,
+    "stop" : 1622032511189,
+    "duration" : 10437
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a2908f0f68c1e27",
+  "name" : "新增拓展规则_字符串-阻断测试",
+  "time" : {
+    "start" : 1622032442549,
+    "stop" : 1622032444814,
+    "duration" : 2265
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9d501a838f335da4",
+  "name" : "批量禁用规则测试",
+  "time" : {
+    "start" : 1622032361769,
+    "stop" : 1622032369103,
+    "duration" : 7334
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a00d45df372f400d",
+  "name" : "查看规则列表测试",
+  "time" : {
+    "start" : 1622032341710,
+    "stop" : 1622032341839,
+    "duration" : 129
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b4a90336a6d687f4",
+  "name" : "SQL语法_join测试",
+  "time" : {
+    "start" : 1622032401470,
+    "stop" : 1622032401613,
+    "duration" : 143
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7fe44870e849aab",
+  "name" : "SQL语法_库名表名列名加``测试",
+  "time" : {
+    "start" : 1622032399519,
+    "stop" : 1622032399718,
+    "duration" : 199
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8a2efb24ecb1bf15",
+  "name" : "新增拓展规则_表名-阻断测试",
+  "time" : {
+    "start" : 1622032431181,
+    "stop" : 1622032433271,
+    "duration" : 2090
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a264b80c1a40aba7",
+  "name" : "SQL语法_表别名测试",
+  "time" : {
+    "start" : 1622032400192,
+    "stop" : 1622032400272,
+    "duration" : 80
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9205695a06b5724",
+  "name" : "启用规则组测试",
+  "time" : {
+    "start" : 1622032357616,
+    "stop" : 1622032361767,
+    "duration" : 4151
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "589662d0a5028c54",
+  "name" : "拓展规则批量禁用测试",
+  "time" : {
+    "start" : 1622032460340,
+    "stop" : 1622032468584,
+    "duration" : 8244
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8f58062f499f120",
+  "name" : "SQL语法_using测试",
+  "time" : {
+    "start" : 1622032400909,
+    "stop" : 1622032400930,
+    "duration" : 21
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "97bf0c238bda23e4",
+  "name" : "SQL语法_Having测试",
+  "time" : {
+    "start" : 1622032400633,
+    "stop" : 1622032400655,
+    "duration" : 22
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "51ed0645b57d3fd5",
+  "name" : "SQL语法_as测试",
+  "time" : {
+    "start" : 1622032400274,
+    "stop" : 1622032400372,
+    "duration" : 98
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "39de82ea91b8b233",
+  "name" : "禁用规则组测试",
+  "time" : {
+    "start" : 1622032353474,
+    "stop" : 1622032357614,
+    "duration" : 4140
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ef5089e9f53d1686",
+  "name" : "SQL语法_distinct/distinctrow测试",
+  "time" : {
+    "start" : 1622032399741,
+    "stop" : 1622032399776,
+    "duration" : 35
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f8ef452f60777867",
+  "name" : "扫描结果测试",
+  "time" : {
+    "start" : 1622032341218,
+    "stop" : 1622032341323,
+    "duration" : 105
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "966bcbaa33acbc58",
+  "name" : "新增拓展规则_字符串-搜索并替换字符串测试",
+  "time" : {
+    "start" : 1622032436376,
+    "stop" : 1622032439465,
+    "duration" : 3089
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7f3ac4650e2e4a41",
+  "name" : "创建单个规则获取资产名称接口测试",
+  "time" : {
+    "start" : 1622032377052,
+    "stop" : 1622032377224,
+    "duration" : 172
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "676d13f60684900b",
+  "name" : "任务配置获取数据类型列表测试",
+  "time" : {
+    "start" : 1622032337700,
+    "stop" : 1622032337814,
+    "duration" : 114
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7231eb1ecda81f3",
+  "name" : "SQL语法_EXISTS测试",
+  "time" : {
+    "start" : 1622032401615,
+    "stop" : 1622032401724,
+    "duration" : 109
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f357e3d6df518409",
+  "name" : "SQL语法_forUpdate测试",
+  "time" : {
+    "start" : 1622032400707,
+    "stop" : 1622032400714,
+    "duration" : 7
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a7d51d51e6d5272",
+  "name" : "添加mysql数据源测试",
+  "time" : {
+    "start" : 1622032334967,
+    "stop" : 1622032335249,
+    "duration" : 282
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5fc6d928addb60aa",
+  "name" : "SQL语法_orderBy测试",
+  "time" : {
+    "start" : 1622032400657,
+    "stop" : 1622032400705,
+    "duration" : 48
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e335c6ff934b4e20",
+  "name" : "SQL语法_where后面加各种条件测试",
+  "time" : {
+    "start" : 1622032399994,
+    "stop" : 1622032400189,
+    "duration" : 195
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cafee2cce49f14e3",
+  "name" : "保存敏感发现任务测试",
+  "time" : {
+    "start" : 1622032338850,
+    "stop" : 1622032338958,
+    "duration" : 108
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "29bd169733e9d5bf",
+  "name" : "规则组列表显示白名单数量测试",
+  "time" : {
+    "start" : 1622032402304,
+    "stop" : 1622032402386,
+    "duration" : 82
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "77550478af692f74",
+  "name" : "修改白名单测试-非本地IP",
+  "time" : {
+    "start" : 1622032411551,
+    "stop" : 1622032414621,
+    "duration" : 3070
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "74233c1f499a9c6e",
+  "name" : "批量删除规则测试",
+  "time" : {
+    "start" : 1622032369105,
+    "stop" : 1622032376587,
+    "duration" : 7482
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e054d950a8fe6868",
+  "name" : "新增拓展规则_时间段-搜索并替换字符串测试",
+  "time" : {
+    "start" : 1622032447930,
+    "stop" : 1622032451018,
+    "duration" : 3088
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "814573e198100cce",
+  "name" : "SQL语法_select upper测试",
+  "time" : {
+    "start" : 1622032401016,
+    "stop" : 1622032401279,
+    "duration" : 263
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "b938ab40687c4e47",
+  "name" : "任务配置获取所有Schema测试",
+  "time" : {
+    "start" : 1622032337817,
+    "stop" : 1622032338009,
+    "duration" : 192
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cbf30d13a7bf5b58",
+  "name" : "添加白名单测试",
+  "time" : {
+    "start" : 1622032402190,
+    "stop" : 1622032402245,
+    "duration" : 55
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "715d433c5fcbe87c",
+  "name" : "创建单个规则获取表名接口测试",
+  "time" : {
+    "start" : 1622032377395,
+    "stop" : 1622032377508,
+    "duration" : 113
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b78b5fcd875df392",
+  "name" : "SQL语法_all测试",
+  "time" : {
+    "start" : 1622032399721,
+    "stop" : 1622032399739,
+    "duration" : 18
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28c8e0dadd587c90",
+  "name" : "数据源测试连接测试",
+  "time" : {
+    "start" : 1622032335344,
+    "stop" : 1622032336454,
+    "duration" : 1110
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3ea3c6389b8f6ad",
+  "name" : "新增拓展规则_表名-替换SQL测试",
+  "time" : {
+    "start" : 1622032428097,
+    "stop" : 1622032431179,
+    "duration" : 3082
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "746067f7d758e128",
+  "name" : "创建单个规则获取schema接口测试",
+  "time" : {
+    "start" : 1622032377226,
+    "stop" : 1622032377392,
+    "duration" : 166
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9de4e62aee3ddc",
+  "name" : "拓展规则批量启用测试",
+  "time" : {
+    "start" : 1622032468587,
+    "stop" : 1622032479910,
+    "duration" : 11323
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "81e1be832a39dc7e",
+  "name" : "搜索mysql数据源测试",
+  "time" : {
+    "start" : 1622032335251,
+    "stop" : 1622032335342,
+    "duration" : 91
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c1e2629272e2087",
+  "name" : "任务配置获取所有模板测试",
+  "time" : {
+    "start" : 1622032338165,
+    "stop" : 1622032338313,
+    "duration" : 148
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "645f6911015e8532",
+  "name" : "编辑单个规则测试",
+  "time" : {
+    "start" : 1622032387755,
+    "stop" : 1622032391067,
+    "duration" : 3312
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "92bfdeaa94ca8373",
+  "name" : "SQL语法_some测试",
+  "time" : {
+    "start" : 1622032401413,
+    "stop" : 1622032401429,
+    "duration" : 16
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "edadc62a8c7c3992",
+  "name" : "SQL语法_select字段名测试",
+  "time" : {
+    "start" : 1622032399483,
+    "stop" : 1622032399517,
+    "duration" : 34
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8e235e2be957e913",
+  "name" : "新增拓展规则_时间段-替换SQL测试",
+  "time" : {
+    "start" : 1622032451020,
+    "stop" : 1622032454143,
+    "duration" : 3123
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9cb68d3eca809de2",
+  "name" : "SQL语法_select(select ...)测试",
+  "time" : {
+    "start" : 1622032400932,
+    "stop" : 1622032401000,
+    "duration" : 68
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6cbae17831f23c5",
+  "name" : "拓展规则删除测试",
+  "time" : {
+    "start" : 1622032497102,
+    "stop" : 1622032500326,
+    "duration" : 3224
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a75d5c96c44ea3b1",
+  "name" : "修改白名单测试-非白名单用户",
+  "time" : {
+    "start" : 1622032408466,
+    "stop" : 1622032411549,
+    "duration" : 3083
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "eb2be413d49c6f9c",
+  "name" : "创建单个规则获取数据类型接口测试",
+  "time" : {
+    "start" : 1622032376997,
+    "stop" : 1622032377050,
+    "duration" : 53
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8efdfae9dea90155",
+  "name" : "SQL语法_union测试",
+  "time" : {
+    "start" : 1622032400716,
+    "stop" : 1622032400866,
+    "duration" : 150
+  },
+  "status" : "failed",
+  "severity" : "normal"
+} ]

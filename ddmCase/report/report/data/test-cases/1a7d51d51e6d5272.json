@@ -1,0 +1,62 @@
+{
+  "uid" : "1a7d51d51e6d5272",
+  "name" : "添加mysql数据源测试",
+  "fullName" : "testCase.testMysql.testDatasourceManage.TestDatasourceManage#testDatabaseAdd",
+  "historyId" : "691844fb4ce8cf7cd0755121750a72b1",
+  "time" : {
+    "start" : 1622032334967,
+    "stop" : 1622032335249,
+    "duration" : 282
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "mysql数据库流程测试"
+  }, {
+    "name" : "feature",
+    "value" : "数据源模块测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCase.testMysql"
+  }, {
+    "name" : "suite",
+    "value" : "testDatasourceManage"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDatasourceManage"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-L5A874L"
+  }, {
+    "name" : "thread",
+    "value" : "105816-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCase.testMysql.testDatasourceManage"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1a7d51d51e6d5272.json",
+  "parameterValues" : [ ]
+}

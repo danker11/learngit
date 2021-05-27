@@ -1,0 +1,92 @@
+{
+  "uid" : "b24f1360e8d29dbc",
+  "name" : "修改白名单测试-非白名单时间段",
+  "fullName" : "testCase.testMysql.testWriteLIst.TestWritelist#testWriteModify3",
+  "historyId" : "6d733acbd80b06de301e1944b3a1d9a4",
+  "time" : {
+    "start" : 1622032414623,
+    "stop" : 1622032417699,
+    "duration" : 3076
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestWritelist",
+    "time" : {
+      "start" : 1622032402096,
+      "stop" : 1622032402190,
+      "duration" : 94
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestWritelist::0",
+    "time" : {
+      "start" : 1622032421090,
+      "stop" : 1622032421090,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "白名单模块测试"
+  }, {
+    "name" : "epic",
+    "value" : "mysql数据库流程测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCase.testMysql"
+  }, {
+    "name" : "suite",
+    "value" : "testWriteLIst"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestWritelist"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-L5A874L"
+  }, {
+    "name" : "thread",
+    "value" : "105816-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCase.testMysql.testWriteLIst"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b24f1360e8d29dbc.json",
+  "parameterValues" : [ ]
+}

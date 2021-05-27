@@ -1,0 +1,98 @@
+{
+  "uid" : "8efdfae9dea90155",
+  "name" : "SQL语法_union测试",
+  "fullName" : "testCase.testMysql.testSQL.TestMaskRule#testUnion",
+  "historyId" : "8607d9ab20c2ec18a959024930ac408a",
+  "time" : {
+    "start" : 1622032400716,
+    "stop" : 1622032400866,
+    "duration" : 150
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '张三' == '张*'\n  - 张*\n  + 张三",
+  "statusTrace" : "self = <testCase.testMysql.testSQL.TestMaskRule object at 0x0000011143882F48>\n\n    @allure.title('SQL语法_union测试')\n    def testUnion(self):\n        sql = self.db.query(\"select * from auto_table where name like'张%' UNION select * from auto_table_copy where name like '张%'\")\n        assert sql[0][1] == '张*'\n        sql = self.db.query('SELECT * FROM (SELECT name FROM auto_table UNION SELECT card_id FROM auto_table_copy) tmp limit 100')\n        assert sql[0][0] == '张*'\n        assert sql[18][0] == '23***************7'\n        sql = self.db.query('SELECT * FROM (SELECT card_id FROM auto_table_copy UNION SELECT name FROM auto_table) tmp limit 100;')\n>       assert sql[17][0] == '张*'\nE       AssertionError: assert '张三' == '张*'\nE         - 张*\nE         + 张三\n\n..\\testCase\\testMysql\\testSQL.py:254: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMaskRule",
+    "time" : {
+      "start" : 1622032395049,
+      "stop" : 1622032396429,
+      "duration" : 1380
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMaskRule::0",
+    "time" : {
+      "start" : 1622032401724,
+      "stop" : 1622032401724,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "SQL语法测试"
+  }, {
+    "name" : "epic",
+    "value" : "mysql数据库流程测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCase.testMysql"
+  }, {
+    "name" : "suite",
+    "value" : "testSQL"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMaskRule"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-L5A874L"
+  }, {
+    "name" : "thread",
+    "value" : "105816-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCase.testMysql.testSQL"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8efdfae9dea90155.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,62 @@
+{
+  "uid" : "966bcbaa33acbc58",
+  "name" : "新增拓展规则_字符串-搜索并替换字符串测试",
+  "fullName" : "testCase.testMysql.testExtRuleSQL.TestExtRuleSQL#testExtRuleAdd6",
+  "historyId" : "f31a33cb675b4edc77eac101ca1d4358",
+  "time" : {
+    "start" : 1622032436376,
+    "stop" : 1622032439465,
+    "duration" : 3089
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "拓展规则测试"
+  }, {
+    "name" : "epic",
+    "value" : "mysql数据库流程测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCase.testMysql"
+  }, {
+    "name" : "suite",
+    "value" : "testExtRuleSQL"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestExtRuleSQL"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-L5A874L"
+  }, {
+    "name" : "thread",
+    "value" : "105816-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCase.testMysql.testExtRuleSQL"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "966bcbaa33acbc58.json",
+  "parameterValues" : [ ]
+}

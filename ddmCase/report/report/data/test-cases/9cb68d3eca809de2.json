@@ -1,0 +1,98 @@
+{
+  "uid" : "9cb68d3eca809de2",
+  "name" : "SQL语法_select(select ...)测试",
+  "fullName" : "testCase.testMysql.testSQL.TestMaskRule#testSelect2",
+  "historyId" : "de98d67bcb2c4c4a9519995f17677da9",
+  "time" : {
+    "start" : 1622032400932,
+    "stop" : 1622032401000,
+    "duration" : 68
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '张三' == '张*'\n  - 张*\n  + 张三",
+  "statusTrace" : "self = <testCase.testMysql.testSQL.TestMaskRule object at 0x00000111438FCD48>\n\n    @allure.title('SQL语法_select(select ...)测试')\n    def testSelect2(self):\n        sql = self.db.query(\"SELECT (SELECT name FROM auto_table WHERE id=1)\")\n>       assert sql[0][0] == '张*'\nE       AssertionError: assert '张三' == '张*'\nE         - 张*\nE         + 张三\n\n..\\testCase\\testMysql\\testSQL.py:275: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMaskRule",
+    "time" : {
+      "start" : 1622032395049,
+      "stop" : 1622032396429,
+      "duration" : 1380
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "xunit_setup_class_fixture_TestMaskRule::0",
+    "time" : {
+      "start" : 1622032401724,
+      "stop" : 1622032401724,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 0,
+    "hasContent" : false,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "SQL语法测试"
+  }, {
+    "name" : "epic",
+    "value" : "mysql数据库流程测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCase.testMysql"
+  }, {
+    "name" : "suite",
+    "value" : "testSQL"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMaskRule"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-L5A874L"
+  }, {
+    "name" : "thread",
+    "value" : "105816-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCase.testMysql.testSQL"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "9cb68d3eca809de2.json",
+  "parameterValues" : [ ]
+}

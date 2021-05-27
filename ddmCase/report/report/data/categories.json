@@ -1,0 +1,52 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '张三' == '张*'\n  - 张*\n  + 张三",
+      "children" : [ {
+        "name" : "SQL语法_union测试",
+        "uid" : "8efdfae9dea90155",
+        "parentUid" : "15e3af03203c4de96d0056e4cb0169bd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622032400716,
+          "stop" : 1622032400866,
+          "duration" : 150
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "SQL语法_select(select ...)测试",
+        "uid" : "9cb68d3eca809de2",
+        "parentUid" : "15e3af03203c4de96d0056e4cb0169bd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622032400932,
+          "stop" : 1622032401000,
+          "duration" : 68
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "SQL语法_select upper测试",
+        "uid" : "814573e198100cce",
+        "parentUid" : "15e3af03203c4de96d0056e4cb0169bd",
+        "status" : "failed",
+        "time" : {
+          "start" : 1622032401016,
+          "stop" : 1622032401279,
+          "duration" : 263
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "15e3af03203c4de96d0056e4cb0169bd"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

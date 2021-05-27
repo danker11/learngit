@@ -1,0 +1,62 @@
+{
+  "uid" : "7c1e2629272e2087",
+  "name" : "任务配置获取所有模板测试",
+  "fullName" : "testCase.testMysql.testSenDataFind.TestSenDataFind#testTemplateList",
+  "historyId" : "f81c5c746c92963603d24c16d895e914",
+  "time" : {
+    "start" : 1622032338165,
+    "stop" : 1622032338313,
+    "duration" : 148
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "敏感数据发现模块测试"
+  }, {
+    "name" : "epic",
+    "value" : "mysql数据库流程测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCase.testMysql"
+  }, {
+    "name" : "suite",
+    "value" : "testSenDataFind"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSenDataFind"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-L5A874L"
+  }, {
+    "name" : "thread",
+    "value" : "105816-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCase.testMysql.testSenDataFind"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7c1e2629272e2087.json",
+  "parameterValues" : [ ]
+}

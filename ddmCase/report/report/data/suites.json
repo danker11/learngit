@@ -1,0 +1,1277 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "testCase.testMysql",
+    "children" : [ {
+      "name" : "testDatasourceManage",
+      "children" : [ {
+        "name" : "TestDatasourceManage",
+        "children" : [ {
+          "name" : "添加mysql数据源测试",
+          "uid" : "1a7d51d51e6d5272",
+          "parentUid" : "3a926ed039a5da36affa42ac4e046f47",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032334967,
+            "stop" : 1622032335249,
+            "duration" : 282
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "搜索mysql数据源测试",
+          "uid" : "81e1be832a39dc7e",
+          "parentUid" : "3a926ed039a5da36affa42ac4e046f47",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032335251,
+            "stop" : 1622032335342,
+            "duration" : 91
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "数据源测试连接测试",
+          "uid" : "28c8e0dadd587c90",
+          "parentUid" : "3a926ed039a5da36affa42ac4e046f47",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032335344,
+            "stop" : 1622032336454,
+            "duration" : 1110
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3a926ed039a5da36affa42ac4e046f47"
+      } ],
+      "uid" : "cb5b68e3ef49481d02685123e515ca29"
+    }, {
+      "name" : "testSenDataFind",
+      "children" : [ {
+        "name" : "TestSenDataFind",
+        "children" : [ {
+          "name" : "获取扫描任务列表测试",
+          "uid" : "16a245d0b9a2be31",
+          "parentUid" : "705057c24ed7c51eafd44759c36c4fe5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032337289,
+            "stop" : 1622032337452,
+            "duration" : 163
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "获取最大线程数测试",
+          "uid" : "f7add55d8caba5e6",
+          "parentUid" : "705057c24ed7c51eafd44759c36c4fe5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032337455,
+            "stop" : 1622032337698,
+            "duration" : 243
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "任务配置获取数据类型列表测试",
+          "uid" : "676d13f60684900b",
+          "parentUid" : "705057c24ed7c51eafd44759c36c4fe5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032337700,
+            "stop" : 1622032337814,
+            "duration" : 114
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "任务配置获取所有Schema测试",
+          "uid" : "b938ab40687c4e47",
+          "parentUid" : "705057c24ed7c51eafd44759c36c4fe5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032337817,
+            "stop" : 1622032338009,
+            "duration" : 192
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "任务配置获取配置信息测试",
+          "uid" : "6209147a4dceb21a",
+          "parentUid" : "705057c24ed7c51eafd44759c36c4fe5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032338011,
+            "stop" : 1622032338163,
+            "duration" : 152
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "任务配置获取所有模板测试",
+          "uid" : "7c1e2629272e2087",
+          "parentUid" : "705057c24ed7c51eafd44759c36c4fe5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032338165,
+            "stop" : 1622032338313,
+            "duration" : 148
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "任务配置不勾选模板获取所有数据类型测试",
+          "uid" : "4a38dc56565d031b",
+          "parentUid" : "705057c24ed7c51eafd44759c36c4fe5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032338316,
+            "stop" : 1622032338459,
+            "duration" : 143
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "任务配置获取所选库下所有表测试",
+          "uid" : "7eeec6b44aa11f94",
+          "parentUid" : "705057c24ed7c51eafd44759c36c4fe5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032338462,
+            "stop" : 1622032338848,
+            "duration" : 386
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "保存敏感发现任务测试",
+          "uid" : "cafee2cce49f14e3",
+          "parentUid" : "705057c24ed7c51eafd44759c36c4fe5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032338850,
+            "stop" : 1622032338958,
+            "duration" : 108
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "启动扫描任务测试",
+          "uid" : "96aa62a5aac5e22d",
+          "parentUid" : "705057c24ed7c51eafd44759c36c4fe5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032338961,
+            "stop" : 1622032339078,
+            "duration" : 117
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "扫描进度测试",
+          "uid" : "634b1d40b4f2d59a",
+          "parentUid" : "705057c24ed7c51eafd44759c36c4fe5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032339080,
+            "stop" : 1622032341216,
+            "duration" : 2136
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "扫描结果测试",
+          "uid" : "f8ef452f60777867",
+          "parentUid" : "705057c24ed7c51eafd44759c36c4fe5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032341218,
+            "stop" : 1622032341323,
+            "duration" : 105
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "705057c24ed7c51eafd44759c36c4fe5"
+      } ],
+      "uid" : "badcecff843626130e49deef799c412e"
+    }, {
+      "name" : "testMaskRules",
+      "children" : [ {
+        "name" : "TestMaskRules",
+        "children" : [ {
+          "name" : "查看规则组列表测试",
+          "uid" : "8ff7454472ac16cd",
+          "parentUid" : "c490305163986e297acff03199c84522",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032341652,
+            "stop" : 1622032341708,
+            "duration" : 56
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "查看规则列表测试",
+          "uid" : "a00d45df372f400d",
+          "parentUid" : "c490305163986e297acff03199c84522",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032341710,
+            "stop" : 1622032341839,
+            "duration" : 129
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "批量创建规则测试",
+          "uid" : "defafd0d40a117d8",
+          "parentUid" : "c490305163986e297acff03199c84522",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032341841,
+            "stop" : 1622032346197,
+            "duration" : 4356
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "批量启用规则测试",
+          "uid" : "2dab322adf609e7c",
+          "parentUid" : "c490305163986e297acff03199c84522",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032346199,
+            "stop" : 1622032353472,
+            "duration" : 7273
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "禁用规则组测试",
+          "uid" : "39de82ea91b8b233",
+          "parentUid" : "c490305163986e297acff03199c84522",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032353474,
+            "stop" : 1622032357614,
+            "duration" : 4140
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "启用规则组测试",
+          "uid" : "f9205695a06b5724",
+          "parentUid" : "c490305163986e297acff03199c84522",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032357616,
+            "stop" : 1622032361767,
+            "duration" : 4151
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "批量禁用规则测试",
+          "uid" : "9d501a838f335da4",
+          "parentUid" : "c490305163986e297acff03199c84522",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032361769,
+            "stop" : 1622032369103,
+            "duration" : 7334
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "批量删除规则测试",
+          "uid" : "74233c1f499a9c6e",
+          "parentUid" : "c490305163986e297acff03199c84522",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032369105,
+            "stop" : 1622032376587,
+            "duration" : 7482
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c490305163986e297acff03199c84522"
+      } ],
+      "uid" : "00af112ec0fea4fe56febcde5e487f76"
+    }, {
+      "name" : "testMaskRule",
+      "children" : [ {
+        "name" : "TestMaskRule",
+        "children" : [ {
+          "name" : "创建单个规则获取数据类型接口测试",
+          "uid" : "eb2be413d49c6f9c",
+          "parentUid" : "89e277e85c977ce5b95e531d0b17d3c1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032376997,
+            "stop" : 1622032377050,
+            "duration" : 53
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "创建单个规则获取资产名称接口测试",
+          "uid" : "7f3ac4650e2e4a41",
+          "parentUid" : "89e277e85c977ce5b95e531d0b17d3c1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032377052,
+            "stop" : 1622032377224,
+            "duration" : 172
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "创建单个规则获取schema接口测试",
+          "uid" : "746067f7d758e128",
+          "parentUid" : "89e277e85c977ce5b95e531d0b17d3c1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032377226,
+            "stop" : 1622032377392,
+            "duration" : 166
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "创建单个规则获取表名接口测试",
+          "uid" : "715d433c5fcbe87c",
+          "parentUid" : "89e277e85c977ce5b95e531d0b17d3c1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032377395,
+            "stop" : 1622032377508,
+            "duration" : 113
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "创建单个规则获取列名接口测试",
+          "uid" : "f4de205436376f19",
+          "parentUid" : "89e277e85c977ce5b95e531d0b17d3c1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032377510,
+            "stop" : 1622032377587,
+            "duration" : 77
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "创建单个规则获取脱敏算法接口测试",
+          "uid" : "7442ac001d674b16",
+          "parentUid" : "89e277e85c977ce5b95e531d0b17d3c1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032377590,
+            "stop" : 1622032377656,
+            "duration" : 66
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "创建单个规则测试",
+          "uid" : "29fe8dff86b2d0dc",
+          "parentUid" : "89e277e85c977ce5b95e531d0b17d3c1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032377659,
+            "stop" : 1622032381173,
+            "duration" : 3514
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "禁用单个规则测试",
+          "uid" : "2d9ef00e2ab0fa0c",
+          "parentUid" : "89e277e85c977ce5b95e531d0b17d3c1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032381176,
+            "stop" : 1622032384488,
+            "duration" : 3312
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "启用单个规则测试",
+          "uid" : "f370f122db05c24a",
+          "parentUid" : "89e277e85c977ce5b95e531d0b17d3c1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032384490,
+            "stop" : 1622032387753,
+            "duration" : 3263
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "编辑单个规则测试",
+          "uid" : "645f6911015e8532",
+          "parentUid" : "89e277e85c977ce5b95e531d0b17d3c1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032387755,
+            "stop" : 1622032391067,
+            "duration" : 3312
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "删除单个规则测试",
+          "uid" : "1961dd5de9b9f32d",
+          "parentUid" : "89e277e85c977ce5b95e531d0b17d3c1",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032391070,
+            "stop" : 1622032394343,
+            "duration" : 3273
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "89e277e85c977ce5b95e531d0b17d3c1"
+      } ],
+      "uid" : "d56d6e64d941d8af6452f05d0f44f787"
+    }, {
+      "name" : "testSQL",
+      "children" : [ {
+        "name" : "TestMaskRule",
+        "children" : [ {
+          "name" : "SQL语法_select*/关键字大小写",
+          "uid" : "3e74a2fa970f6c58",
+          "parentUid" : "16646fa72ca68af63aa64f35b17b6577",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032396429,
+            "stop" : 1622032399481,
+            "duration" : 3052
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "SQL语法_select字段名测试",
+          "uid" : "edadc62a8c7c3992",
+          "parentUid" : "16646fa72ca68af63aa64f35b17b6577",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032399483,
+            "stop" : 1622032399517,
+            "duration" : 34
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "SQL语法_库名表名列名加``测试",
+          "uid" : "a7fe44870e849aab",
+          "parentUid" : "16646fa72ca68af63aa64f35b17b6577",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032399519,
+            "stop" : 1622032399718,
+            "duration" : 199
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "SQL语法_all测试",
+          "uid" : "b78b5fcd875df392",
+          "parentUid" : "16646fa72ca68af63aa64f35b17b6577",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032399721,
+            "stop" : 1622032399739,
+            "duration" : 18
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "SQL语法_distinct/distinctrow测试",
+          "uid" : "ef5089e9f53d1686",
+          "parentUid" : "16646fa72ca68af63aa64f35b17b6577",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032399741,
+            "stop" : 1622032399776,
+            "duration" : 35
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "SQL语法_HIGH_PRIORITY/STRAIGHT_JOIN等语法测试",
+          "uid" : "3a5122019963c0a8",
+          "parentUid" : "16646fa72ca68af63aa64f35b17b6577",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032399779,
+            "stop" : 1622032399992,
+            "duration" : 213
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "SQL语法_where后面加各种条件测试",
+          "uid" : "e335c6ff934b4e20",
+          "parentUid" : "16646fa72ca68af63aa64f35b17b6577",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032399994,
+            "stop" : 1622032400189,
+            "duration" : 195
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "SQL语法_表别名测试",
+          "uid" : "a264b80c1a40aba7",
+          "parentUid" : "16646fa72ca68af63aa64f35b17b6577",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032400192,
+            "stop" : 1622032400272,
+            "duration" : 80
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "SQL语法_as测试",
+          "uid" : "51ed0645b57d3fd5",
+          "parentUid" : "16646fa72ca68af63aa64f35b17b6577",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032400274,
+            "stop" : 1622032400372,
+            "duration" : 98
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "SQL语法_like测试",
+          "uid" : "838be371f5eada08",
+          "parentUid" : "16646fa72ca68af63aa64f35b17b6577",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032400374,
+            "stop" : 1622032400410,
+            "duration" : 36
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "SQL语法_groupBy测试",
+          "uid" : "7b7586bc4a5090b0",
+          "parentUid" : "16646fa72ca68af63aa64f35b17b6577",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032400413,
+            "stop" : 1622032400432,
+            "duration" : 19
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "SQL语法_count测试",
+          "uid" : "5f0abb4c3e2ef18c",
+          "parentUid" : "16646fa72ca68af63aa64f35b17b6577",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032400434,
+            "stop" : 1622032400613,
+            "duration" : 179
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "SQL语法_withRollup测试",
+          "uid" : "7a026c6e54e40a68",
+          "parentUid" : "16646fa72ca68af63aa64f35b17b6577",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032400615,
+            "stop" : 1622032400631,
+            "duration" : 16
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "SQL语法_Having测试",
+          "uid" : "97bf0c238bda23e4",
+          "parentUid" : "16646fa72ca68af63aa64f35b17b6577",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032400633,
+            "stop" : 1622032400655,
+            "duration" : 22
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "SQL语法_orderBy测试",
+          "uid" : "5fc6d928addb60aa",
+          "parentUid" : "16646fa72ca68af63aa64f35b17b6577",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032400657,
+            "stop" : 1622032400705,
+            "duration" : 48
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "SQL语法_forUpdate测试",
+          "uid" : "f357e3d6df518409",
+          "parentUid" : "16646fa72ca68af63aa64f35b17b6577",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032400707,
+            "stop" : 1622032400714,
+            "duration" : 7
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "SQL语法_union测试",
+          "uid" : "8efdfae9dea90155",
+          "parentUid" : "16646fa72ca68af63aa64f35b17b6577",
+          "status" : "failed",
+          "time" : {
+            "start" : 1622032400716,
+            "stop" : 1622032400866,
+            "duration" : 150
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "SQL语法_using测试",
+          "uid" : "e8f58062f499f120",
+          "parentUid" : "16646fa72ca68af63aa64f35b17b6577",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032400909,
+            "stop" : 1622032400930,
+            "duration" : 21
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "SQL语法_select(select ...)测试",
+          "uid" : "9cb68d3eca809de2",
+          "parentUid" : "16646fa72ca68af63aa64f35b17b6577",
+          "status" : "failed",
+          "time" : {
+            "start" : 1622032400932,
+            "stop" : 1622032401000,
+            "duration" : 68
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "SQL语法_select upper测试",
+          "uid" : "814573e198100cce",
+          "parentUid" : "16646fa72ca68af63aa64f35b17b6577",
+          "status" : "failed",
+          "time" : {
+            "start" : 1622032401016,
+            "stop" : 1622032401279,
+            "duration" : 263
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "SQL语法_any测试",
+          "uid" : "1465ba3cbe80f603",
+          "parentUid" : "16646fa72ca68af63aa64f35b17b6577",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032401292,
+            "stop" : 1622032401411,
+            "duration" : 119
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "SQL语法_some测试",
+          "uid" : "92bfdeaa94ca8373",
+          "parentUid" : "16646fa72ca68af63aa64f35b17b6577",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032401413,
+            "stop" : 1622032401429,
+            "duration" : 16
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "SQL语法_行子查询测试",
+          "uid" : "4d2e20030228151a",
+          "parentUid" : "16646fa72ca68af63aa64f35b17b6577",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032401432,
+            "stop" : 1622032401468,
+            "duration" : 36
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "SQL语法_join测试",
+          "uid" : "b4a90336a6d687f4",
+          "parentUid" : "16646fa72ca68af63aa64f35b17b6577",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032401470,
+            "stop" : 1622032401613,
+            "duration" : 143
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "SQL语法_EXISTS测试",
+          "uid" : "a7231eb1ecda81f3",
+          "parentUid" : "16646fa72ca68af63aa64f35b17b6577",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032401615,
+            "stop" : 1622032401724,
+            "duration" : 109
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "16646fa72ca68af63aa64f35b17b6577"
+      } ],
+      "uid" : "aaf78217f1f69495290eb7e28d6b079e"
+    }, {
+      "name" : "testWriteLIst",
+      "children" : [ {
+        "name" : "TestWritelist",
+        "children" : [ {
+          "name" : "添加白名单测试",
+          "uid" : "cbf30d13a7bf5b58",
+          "parentUid" : "68440367b38351dc44daa29561ea4f75",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032402190,
+            "stop" : 1622032402245,
+            "duration" : 55
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "白名单列表测试",
+          "uid" : "2de5de2f332e3d61",
+          "parentUid" : "68440367b38351dc44daa29561ea4f75",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032402247,
+            "stop" : 1622032402302,
+            "duration" : 55
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "规则组列表显示白名单数量测试",
+          "uid" : "29bd169733e9d5bf",
+          "parentUid" : "68440367b38351dc44daa29561ea4f75",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032402304,
+            "stop" : 1622032402386,
+            "duration" : 82
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "白名单是否生效测试",
+          "uid" : "ef9aea957603dfd0",
+          "parentUid" : "68440367b38351dc44daa29561ea4f75",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032402388,
+            "stop" : 1622032405399,
+            "duration" : 3011
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "修改白名单测试",
+          "uid" : "7697b4b9e7c92a9f",
+          "parentUid" : "68440367b38351dc44daa29561ea4f75",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032405401,
+            "stop" : 1622032408463,
+            "duration" : 3062
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "修改白名单测试-非白名单用户",
+          "uid" : "a75d5c96c44ea3b1",
+          "parentUid" : "68440367b38351dc44daa29561ea4f75",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032408466,
+            "stop" : 1622032411549,
+            "duration" : 3083
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "修改白名单测试-非本地IP",
+          "uid" : "77550478af692f74",
+          "parentUid" : "68440367b38351dc44daa29561ea4f75",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032411551,
+            "stop" : 1622032414621,
+            "duration" : 3070
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "修改白名单测试-非白名单时间段",
+          "uid" : "b24f1360e8d29dbc",
+          "parentUid" : "68440367b38351dc44daa29561ea4f75",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032414623,
+            "stop" : 1622032417699,
+            "duration" : 3076
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "删除白名单",
+          "uid" : "5a088539c24d2623",
+          "parentUid" : "68440367b38351dc44daa29561ea4f75",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032417702,
+            "stop" : 1622032421089,
+            "duration" : 3387
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "68440367b38351dc44daa29561ea4f75"
+      } ],
+      "uid" : "cf0bee2dbbbc0bc2d5da7ac1b766148a"
+    }, {
+      "name" : "testExtRuleSQL",
+      "children" : [ {
+        "name" : "TestExtRuleSQL",
+        "children" : [ {
+          "name" : "获取拓展规则组列表测试",
+          "uid" : "14b9b856c7994e51",
+          "parentUid" : "37af387c607002897046c23105779a3a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032421442,
+            "stop" : 1622032421496,
+            "duration" : 54
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "启用拓展规则组测试",
+          "uid" : "ff22b90035e094",
+          "parentUid" : "37af387c607002897046c23105779a3a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032421498,
+            "stop" : 1622032421632,
+            "duration" : 134
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "新增拓展规则_表名_替换表名测试",
+          "uid" : "804de6c2cf48b0b0",
+          "parentUid" : "37af387c607002897046c23105779a3a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032421634,
+            "stop" : 1622032424974,
+            "duration" : 3340
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "新增拓展规则_表名-搜索并替换字符串测试",
+          "uid" : "9cbce8c4bcb93faa",
+          "parentUid" : "37af387c607002897046c23105779a3a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032424977,
+            "stop" : 1622032428095,
+            "duration" : 3118
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "新增拓展规则_表名-替换SQL测试",
+          "uid" : "f3ea3c6389b8f6ad",
+          "parentUid" : "37af387c607002897046c23105779a3a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032428097,
+            "stop" : 1622032431179,
+            "duration" : 3082
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "新增拓展规则_表名-阻断测试",
+          "uid" : "8a2efb24ecb1bf15",
+          "parentUid" : "37af387c607002897046c23105779a3a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032431181,
+            "stop" : 1622032433271,
+            "duration" : 2090
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "新增拓展规则_字符串_替换表名测试",
+          "uid" : "c4ea5ce5e1151496",
+          "parentUid" : "37af387c607002897046c23105779a3a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032433273,
+            "stop" : 1622032436373,
+            "duration" : 3100
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "新增拓展规则_字符串-搜索并替换字符串测试",
+          "uid" : "966bcbaa33acbc58",
+          "parentUid" : "37af387c607002897046c23105779a3a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032436376,
+            "stop" : 1622032439465,
+            "duration" : 3089
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "新增拓展规则_字符串-替换SQL测试",
+          "uid" : "46ca2a5f4c8d3dba",
+          "parentUid" : "37af387c607002897046c23105779a3a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032439467,
+            "stop" : 1622032442547,
+            "duration" : 3080
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "新增拓展规则_字符串-阻断测试",
+          "uid" : "1a2908f0f68c1e27",
+          "parentUid" : "37af387c607002897046c23105779a3a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032442549,
+            "stop" : 1622032444814,
+            "duration" : 2265
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "新增拓展规则_时间段_替换表名测试",
+          "uid" : "aa6fbe3e92874735",
+          "parentUid" : "37af387c607002897046c23105779a3a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032444817,
+            "stop" : 1622032447928,
+            "duration" : 3111
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "新增拓展规则_时间段-搜索并替换字符串测试",
+          "uid" : "e054d950a8fe6868",
+          "parentUid" : "37af387c607002897046c23105779a3a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032447930,
+            "stop" : 1622032451018,
+            "duration" : 3088
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "新增拓展规则_时间段-替换SQL测试",
+          "uid" : "8e235e2be957e913",
+          "parentUid" : "37af387c607002897046c23105779a3a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032451020,
+            "stop" : 1622032454143,
+            "duration" : 3123
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "新增拓展规则_时间段-阻断测试",
+          "uid" : "af8feb78fc87e13b",
+          "parentUid" : "37af387c607002897046c23105779a3a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032454146,
+            "stop" : 1622032456293,
+            "duration" : 2147
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "禁用拓展规则组测试",
+          "uid" : "cee2e653cf9db79b",
+          "parentUid" : "37af387c607002897046c23105779a3a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032456295,
+            "stop" : 1622032459472,
+            "duration" : 3177
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "37af387c607002897046c23105779a3a"
+      } ],
+      "uid" : "3d834732a9e39162d866d6f9ad5d911e"
+    }, {
+      "name" : "testExtRule",
+      "children" : [ {
+        "name" : "TestExtRuleSQL",
+        "children" : [ {
+          "name" : "拓展规则批量禁用测试",
+          "uid" : "589662d0a5028c54",
+          "parentUid" : "cd0ccfe7318a3dbc090c2d6290e07f49",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032460340,
+            "stop" : 1622032468584,
+            "duration" : 8244
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "拓展规则批量启用测试",
+          "uid" : "f9de4e62aee3ddc",
+          "parentUid" : "cd0ccfe7318a3dbc090c2d6290e07f49",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032468587,
+            "stop" : 1622032479910,
+            "duration" : 11323
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "拓展规则批量删除测试",
+          "uid" : "a816d4cd53d7a39f",
+          "parentUid" : "cd0ccfe7318a3dbc090c2d6290e07f49",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032479912,
+            "stop" : 1622032486222,
+            "duration" : 6310
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "拓展规则禁用测试",
+          "uid" : "aac1ce4940bd2490",
+          "parentUid" : "cd0ccfe7318a3dbc090c2d6290e07f49",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032486224,
+            "stop" : 1622032489754,
+            "duration" : 3530
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "拓展规则启用测试",
+          "uid" : "ea81912467d901ee",
+          "parentUid" : "cd0ccfe7318a3dbc090c2d6290e07f49",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032489757,
+            "stop" : 1622032493945,
+            "duration" : 4188
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "拓展规则编辑测试",
+          "uid" : "bf32cf6202e70f56",
+          "parentUid" : "cd0ccfe7318a3dbc090c2d6290e07f49",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032493947,
+            "stop" : 1622032497100,
+            "duration" : 3153
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "拓展规则删除测试",
+          "uid" : "c6cbae17831f23c5",
+          "parentUid" : "cd0ccfe7318a3dbc090c2d6290e07f49",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032497102,
+            "stop" : 1622032500326,
+            "duration" : 3224
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "cd0ccfe7318a3dbc090c2d6290e07f49"
+      } ],
+      "uid" : "bee084f42f782be43b53899283cb97c1"
+    }, {
+      "name" : "testMysqlTeradown",
+      "children" : [ {
+        "name" : "TestDatasourceMD",
+        "children" : [ {
+          "name" : "修改数据源端口号测试",
+          "uid" : "ac6dce74105e1055",
+          "parentUid" : "3516a2e4dcfbf50943bd09cdf120cdcd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032500752,
+            "stop" : 1622032511189,
+            "duration" : 10437
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "删除mysql数据源测试",
+          "uid" : "8dd35961215d8418",
+          "parentUid" : "3516a2e4dcfbf50943bd09cdf120cdcd",
+          "status" : "passed",
+          "time" : {
+            "start" : 1622032511192,
+            "stop" : 1622032519739,
+            "duration" : 8547
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "3516a2e4dcfbf50943bd09cdf120cdcd"
+      } ],
+      "uid" : "7d96c4f68bcca760f2050ddb8b0f702b"
+    } ],
+    "uid" : "6a4f05302ae0742af44427787858c89a"
+  } ],
+  "name" : "suites"
+}

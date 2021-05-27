@@ -1,0 +1,62 @@
+{
+  "uid" : "a00d45df372f400d",
+  "name" : "查看规则列表测试",
+  "fullName" : "testCase.testMysql.testMaskRules.TestMaskRules#testRulesList",
+  "historyId" : "651ea956c78345f07d19313c25a7878e",
+  "time" : {
+    "start" : 1622032341710,
+    "stop" : 1622032341839,
+    "duration" : 129
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "脱敏规则模块测试"
+  }, {
+    "name" : "epic",
+    "value" : "mysql数据库流程测试"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testCase.testMysql"
+  }, {
+    "name" : "suite",
+    "value" : "testMaskRules"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMaskRules"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-L5A874L"
+  }, {
+    "name" : "thread",
+    "value" : "105816-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testCase.testMysql.testMaskRules"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a00d45df372f400d.json",
+  "parameterValues" : [ ]
+}
